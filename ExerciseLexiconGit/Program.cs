@@ -19,6 +19,7 @@ namespace ExerciseLexiconGit
                 app.UseHsts();
             }
             Console.WriteLine("Felix här");
+            Console.WriteLine("Commit test");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
