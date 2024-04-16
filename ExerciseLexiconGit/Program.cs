@@ -27,6 +27,7 @@ namespace ExerciseLexiconGit
             Console.WriteLine("4");
             Console.WriteLine("5");
             Console.WriteLine("6");
+            Console.WriteLine("Tjo");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
