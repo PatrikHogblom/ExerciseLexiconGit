@@ -16,10 +16,19 @@ namespace ExerciseLexiconGit
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days.. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                // testa
                 app.UseHsts();
             }
             Console.WriteLine("Felix xhär");
             Console.WriteLine("Commit test");
+
+            Console.WriteLine("1");
+            Console.WriteLine("2");
+            Console.WriteLine("3");
+            Console.WriteLine("4");
+            Console.WriteLine("5");
+            Console.WriteLine("6");
+            Console.WriteLine("Tjo");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
